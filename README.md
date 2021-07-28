@@ -25,6 +25,7 @@ SurfacePlotPMF.m -- Matlab code for generating Fig.2
 WattsStrogatz.m -- Matlab code for generating random Watts-Strogatz graphs
 
 ----------
+
 Usage: 
 
 Step 1: Download NCI ALMANAC data as ComboDrugGrowth_Nov2017.csv
@@ -38,4 +39,5 @@ Step 4: For input into the PMF algorithm pmfnest.m, data must be normalized to m
 Step 5: As in SurfacePlotPMF, reorganize data into a n^2 by 3 matrix, such that columns 1 and 2 contain the original row and column of each value respectively, and column 3 contains the old value.
 
 Step 6: Run pmfnest with specified hyperparameters and batch size. Output matrices D and T are the matrix factor representations of PMF, and B = D*T' gives the PMF approximation of the original matrix.
+
 
